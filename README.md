@@ -5,7 +5,7 @@ Please download the database (PTT_DB) here
 https://drive.google.com/drive/folders/1rjuY0lFvFyDfWHwA3iA5dBX5q47GCtbU?usp=sharing
 
 
-We use Python 3.8 to implement this project
+We use Python 3.8 to implement this project. Please use the same Python version to ensure the compatibility.
 
 -----------------------------------------------------------------------
 
