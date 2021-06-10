@@ -31,6 +31,6 @@ Options:
   
   Instead, the report would be a .txt file.
 
-  You could find the output example first!
+  You could find the output examples first!
   
   Thank you!
