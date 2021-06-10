@@ -146,11 +146,11 @@ if __name__ == "__main__":
     result_buf = []
     parser = OptionParser()
     parser.add_option("-c", "--cpu_count", dest="cpu_count", type="int",
-                      help="set cpu count, range is 1 to {}".format(cpu_count), default=cpu_count)
+                      help="set cpu count, range is 1 to {}, default uses max cpu count in your computer".format(cpu_count), default=cpu_count)
     parser.add_option("-d", "--db_folder", dest="db_folder", type="string",
-                      help="set DB folder", default="")
+                      help="set DB folder, default is ./PTT_DB", default="")
     parser.add_option("-f", "--file_config", dest="custom_config", type="string",
-                      help="set custom config file", default="")
+                      help="set custom config file, default would use ./Config/* for searching rude words", default="")
     (options, args) = parser.parse_args()
     if options.db_folder != "":
         PTT_DB_Path = options.db_folder
