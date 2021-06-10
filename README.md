@@ -30,3 +30,7 @@ Options:
   If you did not set CUSTOM_CONFIG, the report would be .csv files.
   
   Instead, the report would be a .txt file.
+
+  You could find the output example first!
+  
+  Thank you!
